@@ -1,4 +1,4 @@
-# Amazon SES Daily Bounce & Complaint Report
+# Amazon SES Daily Bounce & Complaint Email Messages Report
 Setup a daily email report of all AWS SES bounced emails and compliants.
 
 This report is extremely useful when using AWS SES to send critical emails and you must know which AWS SES emails bounce.

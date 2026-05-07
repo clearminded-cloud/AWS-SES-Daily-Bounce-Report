@@ -1,7 +1,7 @@
 # Amazon SES Daily Bounce & Complaint Email Messages Report
-Setup a daily email report of all AWS SES bounced emails and compliants.
+See the releases for a python script that will setup a daily email report of all AWS SES bounced emails and compliants.
 
-This report is extremely useful when using AWS SES to send critical emails and you must know which AWS SES emails bounce.
+This daily report is extremely useful when using AWS SES to send critical emails and you must know which AWS SES emails bounce.
 Email is an asynchronous system.  Imagine you're sending a critical email to partners.  If one day a partner no longer receives your email and it bounces, you'll find out from the daily report that this script will setup for you.
 
 This project is a single Python setup script that deploys a fully automated daily email report of Amazon SES bounce and complaint failures — including recipient, sender, subject, bounce type, and diagnostic code — delivered to one or more recipients every morning.

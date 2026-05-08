@@ -71,7 +71,7 @@ Edit the four lines at the top of the script before running:
 REGION           = "us-east-2"                                     # Your AWS region
 SES_IDENTITY     = "yourdomain.com"                                     # Verified SES domain or email
 REPORT_RECIPIENT = ["you@yourdomain.com", "colleague@yourdomain.com"]   # One or more report recipients
-REPORT_SENDER    = "you@yourdomain.com"                                 # Must be a verified SES identity
+REPORT_SENDER    = "ses-reports@yourdomain.com"                                 # Must be a verified SES identity
 ```
 
 ---
